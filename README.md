@@ -1,0 +1,65 @@
+# Australia Wildfire Analysis & Dashboard  
+# تحليل حرائق أستراليا ولوحة متابعة التفاعلية
+
+---
+
+![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white)
+![Dash](https://img.shields.io/badge/Dash-Plotly-blueviolet)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+---
+
+## 🇬🇧 English & 🇸🇦 Arabic Version
+
+### 📄 Project Overview / نظرة عامة عن المشروع
+This repository contains a complete analysis of wildfire activities in Australia, from historical data exploration to an interactive dashboard. The goal is to help understand wildfire patterns, distributions, and seasonal behavior across different Australian regions.  
+يحتوي هذا المستودع على تحليل كامل لأنشطة حرائق الغابات في أستراليا، بدءًا من استكشاف البيانات التاريخية وصولًا إلى لوحة متابعة تفاعلية. الهدف هو فهم أنماط الحرائق، توزيعها، وسلوكها الموسمي عبر المناطق المختلفة في أستراليا.
+
+### 📂 Dataset / مجموعة البيانات
+The dataset: `Historical_Wildfires.csv`  
+Key columns / الأعمدة الرئيسية:  
+- `Date` — Fire date / تاريخ وقوع الحريق  
+- `Region` — Name of the region / اسم المنطقة  
+- `Estimated_fire_area` — Estimated area of fire (km²) / المساحة المقدرة للحريق (كم²)  
+- `Count` — Number of fire-pixel detections / عدد بكسلات الحرائق المكتشفة  
+- Additional metrics like fire brightness and radiative power (if available) / مقاييس إضافية مثل شدة الحريق والقوة الإشعاعية (إن وجدت)  
+
+### 📊 Data Visualizations / الرسوم البيانية
+Python libraries used: pandas, matplotlib, seaborn, plotly.  
+المكتبات المستخدمة: pandas, matplotlib, seaborn, plotly.
+
+Visualizations include / تشمل الرسوم:  
+
+1. **Line Chart – Fire Area Over Time / مخطط خطي – تغير مساحة الحرائق مع الوقت**  
+   ![Line Chart](ScreenShot/Line chart.png)  
+
+2. **Bar Chart – Estimated Fire Area by Month / مخطط شريطي – مجموع المساحات الشهرية للحريق**  
+   ![Bar Chart](ScreenShot/Estimated fire area over month.png)  
+
+3. **Bar Chart – Mean Estimated Fire Brightness per Region / مخطط شريطي – مقارنة شدة الحرائق بين المناطق**  
+   ![Brightness Bar Chart](ScreenShot/Pie chart – portion of count of pixels.png)  
+
+4. **Pie Chart – Portion of Pixels for Vegetation Fires by Region / مخطط دائري – توزيع عدد البكسلات حسب المنطقة**  
+   ![Pie Chart](ScreenShot/Histogram of mean fire brightness.png)  
+
+5. **Histogram – Distribution of Fire Brightness / مخطط التوزيع – توزيع شدة الحرائق**  
+   ![Brightness Histogram](ScreenShot/Distribution per region using Seaborn.png)  
+
+6. **Scatter Plot – Radiative Power vs Confidence / مخطط تشتت – القوة الإشعاعية مقابل الثقة**  
+   ![Scatter Plot](ScreenShot/Scatter plot – Radiative power vs confidence.png)  
+
+7. **Map – Approximate Fire Locations / خريطة – المواقع التقريبية للحرائق**  
+   ![Map](ScreenShot/Map – Mark all regions using Folium.png)  
+
+### 🖥️ Interactive Dashboard / لوحة متابعة تفاعلية
+Built with **Dash & Plotly / تم تطويرها باستخدام Dash & Plotly**  
+Features / الميزات:  
+- Dropdowns for **Region** and **Year** selection / قوائم منسدلة لاختيار المنطقة والسنة  
+- Dynamic **Pie Chart**: monthly fire area based on selection / مخطط دائري ديناميكي: المساحة الشهرية للحريق  
+- Dynamic **Bar Chart**: monthly pixel count based on selection / مخطط شريطي ديناميكي: عدد البكسلات الشهري  
+- Real-time updates on selection changes / تحديثات فورية عند تغيير الاختيار  
+
+### 🚀 How to Run Locally / طريقة التشغيل محليًا
+1. Install dependencies / تثبيت المكتبات المطلوبة:  
+```bash
+pip install pandas plotly dash seaborn matplotlib folium jupyter-dash
