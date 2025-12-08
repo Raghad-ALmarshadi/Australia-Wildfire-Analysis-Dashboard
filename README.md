@@ -31,25 +31,25 @@ Python libraries used: pandas, matplotlib, seaborn, plotly.
 Visualizations include / تشمل الرسوم:  
 
 1. **Line Chart – Fire Area Over Time / مخطط خطي – تغير مساحة الحرائق مع الوقت**  
-   ![Line Chart](ScreenShot/Line chart.png)  
+   ![Line Chart](https://github.com/Raghad-ALmarshadi/Australia-Wildfire-Analysis-Dashboard/blob/main/ScreenShot/Line%20chart.png?raw=true)  
 
 2. **Bar Chart – Estimated Fire Area by Month / مخطط شريطي – مجموع المساحات الشهرية للحريق**  
-   ![Bar Chart](ScreenShot/Estimated fire area over month.png)  
+   ![Bar Chart](https://github.com/Raghad-ALmarshadi/Australia-Wildfire-Analysis-Dashboard/blob/main/ScreenShot/Estimated%20fire%20area%20over%20month.png?raw=true)  
 
 3. **Bar Chart – Mean Estimated Fire Brightness per Region / مخطط شريطي – مقارنة شدة الحرائق بين المناطق**  
-   ![Brightness Bar Chart](ScreenShot/Pie chart – portion of count of pixels.png)  
+   ![Brightness Bar Chart](https://github.com/Raghad-ALmarshadi/Australia-Wildfire-Analysis-Dashboard/blob/main/ScreenShot/Pie%20chart%20%E2%80%93%20portion%20of%20count%20of%20pixels.png?raw=true)  
 
 4. **Pie Chart – Portion of Pixels for Vegetation Fires by Region / مخطط دائري – توزيع عدد البكسلات حسب المنطقة**  
-   ![Pie Chart](ScreenShot/Histogram of mean fire brightness.png)  
+   ![Pie Chart](https://github.com/Raghad-ALmarshadi/Australia-Wildfire-Analysis-Dashboard/blob/main/ScreenShot/Histogram%20of%20mean%20fire%20brightness.png?raw=true)  
 
 5. **Histogram – Distribution of Fire Brightness / مخطط التوزيع – توزيع شدة الحرائق**  
-   ![Brightness Histogram](ScreenShot/Distribution per region using Seaborn.png)  
+   ![Brightness Histogram](https://github.com/Raghad-ALmarshadi/Australia-Wildfire-Analysis-Dashboard/blob/main/ScreenShot/Distribution%20per%20region%20using%20Seaborn.png?raw=true)  
 
 6. **Scatter Plot – Radiative Power vs Confidence / مخطط تشتت – القوة الإشعاعية مقابل الثقة**  
-   ![Scatter Plot](ScreenShot/Scatter plot – Radiative power vs confidence.png)  
+   ![Scatter Plot](https://github.com/Raghad-ALmarshadi/Australia-Wildfire-Analysis-Dashboard/blob/main/ScreenShot/Scatter%20plot%20%E2%80%93%20Radiative%20power%20vs%20confidence.png?raw=true)  
 
 7. **Map – Approximate Fire Locations / خريطة – المواقع التقريبية للحرائق**  
-   ![Map](ScreenShot/Map – Mark all regions using Folium.png)  
+   ![Map](https://github.com/Raghad-ALmarshadi/Australia-Wildfire-Analysis-Dashboard/blob/main/ScreenShot/Map%20%E2%80%93%20Mark%20all%20regions%20using%20Folium.png?raw=true)  
 
 ### 🖥️ Interactive Dashboard / لوحة متابعة تفاعلية
 Built with **Dash & Plotly / تم تطويرها باستخدام Dash & Plotly**  
