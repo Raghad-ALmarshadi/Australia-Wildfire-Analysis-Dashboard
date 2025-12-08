@@ -63,3 +63,19 @@ Features / الميزات:
 1. Install dependencies / تثبيت المكتبات المطلوبة:  
 ```bash
 pip install pandas plotly dash seaborn matplotlib folium jupyter-dash
+```
+2. Run the dashboard script / تشغيل ملف لوحة المتابعة:
+```bash
+python dashboard.py
+```
+3.Open the browser at / فتح المتصفح على الرابط:
+```bash
+http://127.0.0.1:8050/
+```
+4.Interact with the dashboard / التفاعل مع لوحة المتابعة:
+
+- Use the Region dropdown to select a region / استخدمي قائمة المنسدلة لاختيار المنطقة
+
+- Use the Year dropdown to select a year / استخدمي قائمة المنسدلة لاختيار السنة
+
+- Charts will update automatically based on your selection / ستتحدث المخططات تلقائيًا حسب اختياراتك
