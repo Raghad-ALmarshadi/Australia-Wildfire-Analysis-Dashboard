@@ -79,3 +79,34 @@ http://127.0.0.1:8050/
 - Use the Year dropdown to select a year / استخدمي قائمة المنسدلة لاختيار السنة
 
 - Charts will update automatically based on your selection / ستتحدث المخططات تلقائيًا حسب اختياراتك
+
+
+📝 Project Structure
+graphql
+Copy code
+├── data/                  # CSV dataset from Kaggle
+
+
+├── visuals/               # Exported static charts
+
+
+├── app.py                 # Dash interactive dashboard
+
+
+├── analysis.ipynb         # Jupyter Notebook with analysis
+
+
+└── README.md              # Project documentation
+
+
+📈 License
+Open-source for educational purposes / مفتوح المصدر لأغراض تعليمية
+
+✨ Author / المؤلف: Raghad Almarshadi
+
+
+✨ GitHub: https://github.com/Raghad-ALmarshadi
+
+
+✨ LinkedIn: https://www.linkedin.com/in/raghad-almarshadi-99b5bb25b/
+
